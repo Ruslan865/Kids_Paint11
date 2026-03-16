@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KidsPaint - Train Coloring</title>
+<title>KidsPaint - Whale Coloring</title>
 
 <style>
 body {
@@ -77,7 +77,7 @@ button,input{ margin:0 5px; padding:8px 12px; font-size:14px; cursor:pointer; }
 </head>
 <body>
 
-<h1>KidsPaint: Train Coloring</h1>
+<h1>KidsPaint: Whale Coloring</h1>
 <p>Select a color, adjust brush size & opacity, paint on the image, and download your work.</p>
 
 <div id="canvasContainer">
@@ -101,7 +101,7 @@ button,input{ margin:0 5px; padding:8px 12px; font-size:14px; cursor:pointer; }
   <button id="playMusic">Play Music</button>
   <button id="pauseMusic">Pause</button>
   <audio id="bgMusic" loop>
-    <source src="baby3.mp3" type="audio/mpeg">
+    <source src="baby1.mp3" type="audio/mpeg">
     Your browser does not support audio.
   </audio>
 </div>
@@ -135,7 +135,7 @@ let brushSize=10;
 let brushOpacity=0.5;
 
 const img=new Image();
-img.src='train.jpg';
+img.src='whale.jpg';
 img.onload=function(){ resizeCanvas(); drawImage(); };
 
 function resizeCanvas(){
